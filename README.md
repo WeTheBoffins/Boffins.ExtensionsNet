@@ -1,1 +1,1 @@
-# Boffins.ExtensionNet
+# Boffins.ExtensionsNet
