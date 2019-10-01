@@ -8,11 +8,11 @@ trigger:
     include:
       - master
       - releases/*
-paths:
-  include:
-    - '*'
-  exclude:
-    - 'README.md'
+  paths:
+    include:
+      - '*'
+    exclude:
+      - 'README.md'
 pool:
   vmImage: 'windows-latest'
 
