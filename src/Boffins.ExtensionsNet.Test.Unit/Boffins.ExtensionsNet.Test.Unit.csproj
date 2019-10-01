@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Boffins.ExtentionsNet\Boffins.ExtentionsNet.csproj" />
+      <ProjectReference Include="..\Boffins.ExtensionsNet\Boffins.ExtensionsNet.csproj" />
     </ItemGroup>
 
 </Project>

@@ -2,9 +2,9 @@ using System.ComponentModel;
 using System.Linq;
 using FluentAssertions;
 using Xunit;
-using static Boffins.ExtentionsNet.EnumExtensions;
+using static Boffins.ExtensionsNet.EnumExtensions;
 
-namespace Boffins.ExtentionsNet.Test.Unit
+namespace Boffins.ExtensionsNet.Test.Unit
 {
     public class EnumExtensionTest
     {
