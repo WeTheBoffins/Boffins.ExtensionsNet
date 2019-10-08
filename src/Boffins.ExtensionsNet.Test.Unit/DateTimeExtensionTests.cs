@@ -49,28 +49,28 @@ namespace Boffins.ExtensionsNet.Test.Unit
         }
         
         [Fact]
-        public void ShouldReturnTrueIfTodayIsLeadDay()
+        public void ShouldReturnTrueIfTodayIsLeapDay()
         {
             var date = new DateTime(2016,2,29);
             date.IsLeapDay().Should().BeTrue();
         }
         
         [Fact]
-        public void ShouldReturnFalseIfTodayIsLeadDay()
+        public void ShouldReturnFalseIfTodayIsLeapDay()
         {
             var date = new DateTime(2016,3,29);
             date.IsLeapDay().Should().BeFalse();
         }
         
         [Fact]
-        public void ShouldReturnTrueIfCurrentYearIsLeaYear()
+        public void ShouldReturnTrueIfCurrentYearIsLeapYear()
         {
             var date = new DateTime(2016,3,29);
             date.IsLeapYear().Should().BeTrue();
         }
         
         [Fact]
-        public void ShouldReturnFalseIfCurrentYearIsNotLeaYear()
+        public void ShouldReturnFalseIfCurrentYearIsNotLeapYear()
         {
             var date = new DateTime(2017,3,29);
             date.IsLeapYear().Should().BeFalse();
