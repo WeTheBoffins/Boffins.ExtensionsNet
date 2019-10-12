@@ -23,7 +23,7 @@ stages:
         - task: UseDotNet@2
           displayName: 'Install .NET Core SDK'
           inputs:
-            version: 2.2
+            version: 2.2.x
        
         - script: dotnet restore
        
