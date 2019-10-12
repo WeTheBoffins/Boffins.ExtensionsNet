@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9594" branch-rate="0.9285" version="1.9" timestamp="1570906872" lines-covered="71" lines-valid="74" branches-covered="26" branches-valid="28">
+  <sources>
+    <source></source>
+  </sources>
+  <packages>
+    <package name="Boffins.ExtensionsNet" line-rate="0.9594" branch-rate="0.9285" complexity="39">
+      <classes>
+        <class name="Boffins.ExtensionsNet.DateTimeExtensions" filename="/Users/grahul/Home/Projects/WeTheBoffins/Boffins.ExtensionsNet/src/Boffins.ExtensionsNet/DateTimeExtensions.cs" line-rate="0.9189" branch-rate="0.8332999999999999" complexity="18">
+          <methods>
+            <method name="IsNotMinDate" signature="(System.Nullable`1&lt;System.DateTime&gt;)" line-rate="1" branch-rate="0.75">
+              <lines>
+                <line number="9" hits="3" branch="False" />
+                <line number="10" hits="3" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                    <condition number="25" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="11" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="FirstDayOfTheMonth" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="14" hits="15" branch="False" />
+                <line number="15" hits="15" branch="False" />
+                <line number="16" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name="LastDayOfMonth" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="19" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="21" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="FirstDayOfNextMonth" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="24" hits="7" branch="False" />
+                <line number="25" hits="7" branch="False" />
+                <line number="26" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="IsLeapDay" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="29" hits="2" branch="False" />
+                <line number="30" hits="2" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="IsLeapYear" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="34" hits="2" branch="False" />
+                <line number="35" hits="2" branch="False" />
+                <line number="36" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="DaysBetweenDates" signature="(System.DateTime,System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="39" hits="1" branch="False" />
+                <line number="40" hits="1" branch="False" />
+                <line number="41" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="TimeElapsed" signature="(System.DateTime)" line-rate="0" branch-rate="1">
+              <lines>
+                <line number="44" hits="0" branch="False" />
+                <line number="45" hits="0" branch="False" />
+                <line number="46" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="IsWeekend" signature="(System.DateTime)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="49" hits="3" branch="False" />
+                <line number="50" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="8" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="51" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="MonthsBetweenDates" signature="(System.DateTime,System.DateTime)" line-rate="1" branch-rate="0.75">
+              <lines>
+                <line number="54" hits="1" branch="False" />
+                <line number="55" hits="1" branch="False" />
+                <line number="56" hits="1" branch="False" />
+                <line number="57" hits="7" branch="True" condition-coverage="75% (3/4)">
+                  <conditions>
+                    <condition number="54" type="jump" coverage="100%" />
+                    <condition number="40" type="jump" coverage="50%" />
+                  </conditions>
+                </line>
+                <line number="58" hits="6" branch="False" />
+                <line number="59" hits="6" branch="False" />
+                <line number="60" hits="6" branch="False" />
+                <line number="61" hits="6" branch="False" />
+                <line number="63" hits="1" branch="False" />
+                <line number="64" hits="1" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="False" />
+            <line number="10" hits="3" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+                <condition number="25" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="11" hits="3" branch="False" />
+            <line number="14" hits="15" branch="False" />
+            <line number="15" hits="15" branch="False" />
+            <line number="16" hits="15" branch="False" />
+            <line number="19" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="24" hits="7" branch="False" />
+            <line number="25" hits="7" branch="False" />
+            <line number="26" hits="7" branch="False" />
+            <line number="29" hits="2" branch="False" />
+            <line number="30" hits="2" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="2" branch="False" />
+            <line number="34" hits="2" branch="False" />
+            <line number="35" hits="2" branch="False" />
+            <line number="36" hits="2" branch="False" />
+            <line number="39" hits="1" branch="False" />
+            <line number="40" hits="1" branch="False" />
+            <line number="41" hits="1" branch="False" />
+            <line number="44" hits="0" branch="False" />
+            <line number="45" hits="0" branch="False" />
+            <line number="46" hits="0" branch="False" />
+            <line number="49" hits="3" branch="False" />
+            <line number="50" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="8" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="51" hits="3" branch="False" />
+            <line number="54" hits="1" branch="False" />
+            <line number="55" hits="1" branch="False" />
+            <line number="56" hits="1" branch="False" />
+            <line number="57" hits="7" branch="True" condition-coverage="75% (3/4)">
+              <conditions>
+                <condition number="54" type="jump" coverage="100%" />
+                <condition number="40" type="jump" coverage="50%" />
+              </conditions>
+            </line>
+            <line number="58" hits="6" branch="False" />
+            <line number="59" hits="6" branch="False" />
+            <line number="60" hits="6" branch="False" />
+            <line number="61" hits="6" branch="False" />
+            <line number="63" hits="1" branch="False" />
+            <line number="64" hits="1" branch="False" />
+          </lines>
+        </class>
+        <class name="Boffins.ExtensionsNet.EnumExtensions" filename="/Users/grahul/Home/Projects/WeTheBoffins/Boffins.ExtensionsNet/src/Boffins.ExtensionsNet/EnumExtensions.cs" line-rate="1" branch-rate="1" complexity="11">
+          <methods>
+            <method name="ToDictionary" signature="()" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="11" hits="1" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="26" type="jump" coverage="100%" />
+                    <condition number="57" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="12" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="ToDictionary" signature="(System.Enum)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="15" hits="1" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="40" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="16" hits="7" branch="False" />
+              </lines>
+            </method>
+            <method name="ToEnum" signature="(System.String)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="19" hits="2" branch="False" />
+                <line number="20" hits="2" branch="False" />
+                <line number="22" hits="2" branch="False" />
+                <line number="23" hits="2" branch="False" />
+              </lines>
+            </method>
+            <method name="GetDescription" signature="(System.Enum)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="26" hits="2" branch="False" />
+                <line number="27" hits="2" branch="False" />
+                <line number="28" hits="2" branch="False" />
+                <line number="30" hits="2" branch="True" condition-coverage="100% (4/4)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="100%" />
+                    <condition number="47" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="31" hits="2" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="1" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="26" type="jump" coverage="100%" />
+                <condition number="57" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="12" hits="7" branch="False" />
+            <line number="15" hits="1" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="40" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="16" hits="7" branch="False" />
+            <line number="19" hits="2" branch="False" />
+            <line number="20" hits="2" branch="False" />
+            <line number="22" hits="2" branch="False" />
+            <line number="23" hits="2" branch="False" />
+            <line number="26" hits="2" branch="False" />
+            <line number="27" hits="2" branch="False" />
+            <line number="28" hits="2" branch="False" />
+            <line number="30" hits="2" branch="True" condition-coverage="100% (4/4)">
+              <conditions>
+                <condition number="43" type="jump" coverage="100%" />
+                <condition number="47" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="31" hits="2" branch="False" />
+          </lines>
+        </class>
+        <class name="Boffins.ExtensionsNet.StringExtensions" filename="/Users/grahul/Home/Projects/WeTheBoffins/Boffins.ExtensionsNet/src/Boffins.ExtensionsNet/StringExtensions.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="IsNullOrEmptyOrWhiteSpace" signature="(System.String)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="11" hits="3" branch="False" />
+                <line number="12" hits="3" branch="False" />
+                <line number="13" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="Strip" signature="(System.String,System.Char)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="16" hits="1" branch="False" />
+                <line number="17" hits="1" branch="False" />
+                <line number="18" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Strip" signature="(System.String,System.Char[])" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="3" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="9" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="23" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="ToSecureString" signature="(System.String)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="26" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
+                <line number="28" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
+                <line number="31" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="SplitAndTrim" signature="(System.String,System.Char[])" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="34" hits="4" branch="False" />
+                <line number="35" hits="4" branch="False" />
+                <line number="36" hits="4" branch="False" />
+              </lines>
+            </method>
+            <method name="SplitAndTrim" signature="(System.String,System.Boolean,System.Char[])" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="33" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="42" hits="5" branch="False" />
+                <line number="43" hits="5" branch="False" />
+                <line number="44" hits="16" branch="False" />
+                <line number="45" hits="16" branch="False" />
+                <line number="46" hits="5" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="11" hits="3" branch="False" />
+            <line number="12" hits="3" branch="False" />
+            <line number="13" hits="3" branch="False" />
+            <line number="16" hits="1" branch="False" />
+            <line number="17" hits="1" branch="False" />
+            <line number="18" hits="1" branch="False" />
+            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="3" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="9" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="23" hits="1" branch="False" />
+            <line number="26" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
+            <line number="28" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
+            <line number="31" hits="1" branch="False" />
+            <line number="34" hits="4" branch="False" />
+            <line number="35" hits="4" branch="False" />
+            <line number="36" hits="4" branch="False" />
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="33" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="42" hits="5" branch="False" />
+            <line number="43" hits="5" branch="False" />
+            <line number="44" hits="16" branch="False" />
+            <line number="45" hits="16" branch="False" />
+            <line number="46" hits="5" branch="False" />
+          </lines>
+        </class>
+        <class name="Boffins.ExtensionsNet.StringExtensions/&lt;&gt;c__DisplayClass5_0" filename="/Users/grahul/Home/Projects/WeTheBoffins/Boffins.ExtensionsNet/src/Boffins.ExtensionsNet/StringExtensions.cs" line-rate="1" branch-rate="1" complexity="2">
+          <methods />
+          <lines />
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
