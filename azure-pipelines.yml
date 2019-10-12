@@ -26,6 +26,7 @@ stages:
             version: 2.2.x
        
         - script: dotnet restore
+          displayName: 'Restore the projects'
        
         - task: DotNetCoreCLI@2
           displayName: 'Build Projects'
@@ -38,5 +39,5 @@ stages:
           displayName: 'Run Tests'
           inputs:
             command: test
-            projects: '**/*Test/*.csproj'
+            projects: '**/*Test*.csproj'
             arguments: '--configuration $(buildConfiguration) --collect "Code coverage"'
