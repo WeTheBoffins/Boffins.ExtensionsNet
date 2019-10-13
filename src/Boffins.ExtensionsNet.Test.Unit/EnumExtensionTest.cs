@@ -50,7 +50,6 @@ namespace Boffins.ExtensionsNet.Test.Unit
             enumType.Should().Be(TestEnum.None);
         }
 
-
         [Fact]
         public void ShouldGetDescriptionOfEnum()
         {

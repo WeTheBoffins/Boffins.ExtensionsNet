@@ -109,8 +109,6 @@ namespace Boffins.ExtensionsNet.Test.Unit
                 And.OnlyHaveUniqueItems().
                 And.StartWith(new DateTime(2017, 3, 1)).
                 And.EndWith(new DateTime(2017, 8, 1));
-
         }
-
     }
 }

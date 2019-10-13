@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security;
@@ -43,6 +42,5 @@ namespace Boffins.ExtensionsNet.Test.Unit
              "t e st".SplitAndTrim('s','e').ToList().Should().BeEquivalentTo(new List<string>(){"t","","t"});
              "t e st".SplitAndTrim(true,'s','e').ToList().Should().BeEquivalentTo(new List<string>(){"t","t"});
         }
-       
     }
 }

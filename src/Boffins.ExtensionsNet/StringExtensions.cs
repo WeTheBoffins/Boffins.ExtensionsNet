@@ -44,6 +44,5 @@ namespace Boffins.ExtensionsNet
                 .Select(s => s.Trim())
                 .Where(x => !shouldRemoveEmptyStrings || !x.Equals(string.Empty));
         }
-
     }
 }
