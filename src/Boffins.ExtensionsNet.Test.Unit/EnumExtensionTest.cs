@@ -35,7 +35,6 @@ namespace Boffins.ExtensionsNet.Test.Unit
             dictionary.Last().Value.Should().Be("TestEnum2");
         }
 
-
         [Fact]
         public void ShouldReturnEnumFromString()
         {
