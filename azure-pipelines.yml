@@ -40,16 +40,16 @@ stages:
           inputs:
             command: test
             projects: '**/*Test*.csproj'
-            arguments: '--configuration $(BuildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura'
+            arguments: '--configuration $(buildConfiguration) /p:CollectCoverage=true /p:CoverletOutputFormat=cobertura'
             nobuild: true
 
         - script: |
             dotnet tool install -g dotnet-reportgenerator-globaltool
             reportgenerator -reports:$(Build.SourcesDirectory)/**/*Test*/coverage.cobertura.xml -targetdir:$(Build.SourcesDirectory)/CodeCoverage -reporttypes:HtmlInline_AzurePipelines;Cobertura
-          displayName: Create Code Coverage Report
+          displayName: 'Create Code Coverage Report'
           
         - task: PublishCodeCoverageResults@1
-          displayName: 'Publish Code Coverage'
+          displayName: 'Publish Code Coverage Report'
           inputs:
             codeCoverageTool: Cobertura
             summaryFileLocation: '$(Build.SourcesDirectory)/CodeCoverage/Cobertura.xml'
