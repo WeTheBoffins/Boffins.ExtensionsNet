@@ -23,8 +23,7 @@ namespace Boffins.ExtensionsNet.Test.Unit
         [Fact]
         public void ShouldReturnFalseForNullDate() 
         {
-            DateTime? dateTime = null;
-            dateTime.IsNotMinDate().Should().BeFalse();
+            ((DateTime?) null).IsNotMinDate().Should().BeFalse();
         }
 
         [Fact]
@@ -82,6 +81,13 @@ namespace Boffins.ExtensionsNet.Test.Unit
             var date1 = new DateTime(2017,3,1);
             var date2 = date1.AddDays(5);
             date1.DaysBetweenDates(date2).Should().Be(6);
+        }
+        
+        [Fact]
+        public void ShouldReturnFalseIfCurrentYearIsNotLeapYear1()
+        {
+            var date = new DateTime(2017,3,29);
+            date.TimeElapsed().Days.Should().BeGreaterThan(1);
         }
         
         [Fact]
