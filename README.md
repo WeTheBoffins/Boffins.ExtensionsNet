@@ -1,7 +1,3 @@
 # Boffins.ExtensionsNet
 
-[![Build Status](https://dev.azure.com/techyrahulgarg/techyrahulgarg/_apis/build/status/WeTheBoffins.Boffins.ExtensionsNet?branchName=master)](https://dev.azure.com/techyrahulgarg/techyrahulgarg/_build/latest?definitionId=1&branchName=master)
-
-![Code Coverage](https://img.shields.io/azure-devops/coverage/techyrahulgarg/WeTheBoffins/1/master)
-
-[![CodeFactor](https://www.codefactor.io/repository/github/wetheboffins/boffins.extensionsnet/badge)](https://www.codefactor.io/repository/github/wetheboffins/boffins.extensionsnet)
+[![Build Status](https://dev.azure.com/techyrahulgarg/techyrahulgarg/_apis/build/status/WeTheBoffins.Boffins.ExtensionsNet?branchName=master)](https://dev.azure.com/techyrahulgarg/techyrahulgarg/_build/latest?definitionId=1&branchName=master) . ![Code Coverage](https://img.shields.io/azure-devops/coverage/techyrahulgarg/WeTheBoffins/1/master) . [![CodeFactor](https://www.codefactor.io/repository/github/wetheboffins/boffins.extensionsnet/badge)](https://www.codefactor.io/repository/github/wetheboffins/boffins.extensionsnet)
