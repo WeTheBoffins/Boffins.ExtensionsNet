@@ -48,7 +48,6 @@ namespace Boffins.ExtensionsNet.Test.Unit {
             arr1.HasAny("i", "j", "f").Should().BeFalse();
         } 
         
-        
         [Fact]
         public void ShouldReturnFalseWhenEnumerable1DoesNotContainsAllMemberFromEnumerable2() 
         {
@@ -64,6 +63,5 @@ namespace Boffins.ExtensionsNet.Test.Unit {
             var arr2 = new[] {"i", "j", "f"};
             arr1.HasAny(arr2).Should().BeFalse();
         }
-        
     }
 }

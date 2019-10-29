@@ -23,6 +23,5 @@ namespace Boffins.ExtensionsNet
         {
             return values.All(arr1.Contains);
         }
-        
     }
 }
